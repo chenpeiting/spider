@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 60 python scripts/skrl/train.py --task SpiderPureRL --max_iterations 1 --num_envs 32 --headless)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
