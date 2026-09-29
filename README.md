@@ -70,6 +70,9 @@ scripts/
 ├── skrl/train_student.py         # Student policy training
 ├── skrl/dagger_label.py          # DAgger relabeling
 └── skrl/deploy_student.py        # Real-robot deployment
+models/                           # Trained student policy checkpoints (Git LFS)
+hybrid/                           # TensorBoard logs of Hybrid training runs
+docs/media/                       # Demo media
 ```
 
 ## Getting Started
